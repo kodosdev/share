@@ -4,128 +4,52 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Share Boost</title>
+      <title>Share Boost ni Churchill</title>
    </head>
-   <body>
+   <body style="background-image: url('https://i.ibb.co/7kssL3w/background-image.jpg'); background-size: cover;">
       <div class="wrapper-container">
          <div class="container">
-            <h1>SHARE BOOST</h1>
-            <p>A user-friendly automated website that utilizes your browser's cookies to streamline the process of sharing posts on Facebook using the provided URL.</p>
+            <h1 style="color: white;">SHARE BOOST</h1>
+            <p style="color: #ccc;">A user-friendly automated website that utilizes your browser's cookies to streamline the process of sharing posts on Facebook using the provided URL.</p>
          </div>
          <div class="form-wrapper">
             <form onsubmit="submitForm(event)" class="form-container">
                <div class="form-item">
-                  <label for="cookies">APPSTATE:</label>
-                  <input type="text" id="cookies" name="cookie" placeholder="">
+                  <label for="cookies" style="color: white;">APPSTATE:</label>
+                  <input type="text" id="cookies" name="cookie" placeholder="" style="background: #333; color: white;">
                </div>
                <div class="form-item">
-                  <label for="urls">LINK:</label>
-                  <input type="text" id="urls" name="url" placeholder="">
+                  <label for="urls" style="color: white;">LINK:</label>
+                  <input type="text" id="urls" name="url" placeholder="" style="background: #333; color: white;">
                </div>
                <div class="form-item">
-                  <label for="amounts">LIMIT:</label>
-                  <input type="text" id="amounts" name="amount" placeholder="">
+                  <label for="amounts" style="color: white;">LIMIT:</label>
+                  <input type="text" id="amounts" name="amount" placeholder="" style="background: #333; color: white;">
                </div>
                <div class="form-item">
-                  <label for="intervals">DELAY:</label>
-                  <input type="text" id="intervals" name="interval" placeholder="" pattern="[0-9]*">
+                  <label for="intervals" style="color: white;">DELAY:</label>
+                  <input type="text" id="intervals" name="interval" placeholder="" pattern="[0-9]*" style="background: #333; color: white;">
                </div>
                <div class="form-item">
-                  <button type="submit" onclick="submitForm()" id="submit-button">Submit</button>
+                  <button type="submit" onclick="submitForm()" id="submit-button" style="background-color: #333; color: white;">Submit</button>
                </div>
                <div class="form-item">
-                  <div id="result"></div>
+                  <div id="result" style="display: none; text-align: center; background-color: #333; border: solid 1px #222; padding: 10px; border-radius: 4px; color: white;"></div>
                </div>
             </form>
          </div>
          <div class="container" id="process-container">
-            <h1>SHARE BOOST</h1>
-            <h4>PROCESSING:</h4>
+            <h1 style="color: white;">SHARE BOOST</h1>
+            <h4 style="color: #ccc;">PROCESSING:</h4>
             <div id="processing">
             </div>
          </div>
          <div class="container">
-            <h1>SHARE BOOST</h1>
-            <h4>ABOUT US</h4>
-            <p>You can find our open-source repository <a href="https://www.pornhub.com" style="text-decoration: none; color: blue;">here</a>, encouraging developers to contribute, learn, and customize the website</p>
+            <h1 style="color: white;">SHARE BOOST</h1>
+            <h4 style="color: #ccc;">Churchill Pogi</h4>
+            <p style="color: #ccc;">You can find our open-source repository <a href="https://www.pornhub.com" style="text-decoration: none; color: blue;">here</a>, encouraging developers to contribute, learn, and customize the website</p>
          </div>
       </div>
-      <style>
-         body, html {
-         margin: 0;
-         }
-         body {
-         padding: 20px;
-         font-family: 'Poppins', sans-serif;
-         background: #000;
-         color: #898989;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         }
-         .container {
-         background-color: #0a0a0a;
-         border-radius: 10px;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-         padding: 20px;
-         margin: 20px auto;
-         overflow: auto;
-         }
-         .form-item {
-         padding: 8px;
-         }
-         h1 {
-         color: #343a40;
-         }
-         .form-item label {
-         font-size: 13px;
-         color: #495057;
-         margin-bottom: 5px; 
-         display: block; 
-         }
-         input, button {
-         background: #000;
-         color: #fff; 
-         border: solid 1px #222;
-         box-sizing: border-box;
-         width: 100%;
-         margin-bottom: 10px;
-         padding: 10px;
-         border-radius: 4px;
-         font-size: 16px;
-         }
-         button {
-         cursor: none;
-         color: #0a0a0a;
-         background-color: #ededed;
-         }
-         button:hover {
-         background: #CCC;
-         }
-         #result {
-         display: none;
-         text-align: center;
-         background-color: #ededed;
-         border: solid 1px #222;
-         padding: 10px;
-         border-radius: 4px;
-         color: #0a0a0a;
-         }
-         #process {
-         }
-         .current-online {
-         font-size: 13px;
-         background: #0a0a0a;
-         padding: 10px;
-         color: #898989;
-         border: solid 1px #898989;
-         border-radius: 4px;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-         margin-bottom: 10px;
-         overflow: auto;
-         white-space: nowrap; 
-         }
-      </style>
       <script>
          async function submitForm() {
            event.preventDefault();
@@ -221,7 +145,6 @@
          }
          
          linkOfProcessing();
-         
       </script>
    </body>
 </html>
